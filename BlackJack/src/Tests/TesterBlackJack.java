@@ -15,6 +15,7 @@ public class TesterBlackJack {
 	
 		assertEquals(21,testing.blackJack(19,21)); //Calling a method
 		
+		
 	}
 
 	}

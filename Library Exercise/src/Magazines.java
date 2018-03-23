@@ -1,9 +1,9 @@
 
- public class Magazines extends LibraryShelf{
+ public class Magazines extends LibraryItem{
 
 	//Fields/Attributes - describes object
     private String issuenum;
-    public String author;
+ 
     public String brand;
     
 	//Constructor - a state of object
@@ -11,7 +11,7 @@
 	//super();
 	
 	this.setIssuenum(issuenum);
-	this.author = author;
+	this.setAuthor(author);
 	this.brand = brand;
 }
 //Methods describes the behaviour
@@ -21,7 +21,7 @@ public void startreading()
 }
 
 public String toString() {
-	return "Magazines:" +" "+ getIssuenum() +" "+ author +" "+ brand;
+	return "Magazines:" +" "+ getIssuenum() +" "+ getAuthor() +" "+ brand;
 
 }
 public String getIssuenum() {
